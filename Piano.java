@@ -21,5 +21,9 @@ public class Piano {
 	  public static void main(String[] args) {
 		Piano Steinway = new Piano (1979, "Steinway", "nine ft. grand", "black gloss");
 		System.out.println(Steinway.toString());
+		Piano Baldwin = new Piano (2006, "Baldwin", "baby grand", "natural");
+		System.out.println(Baldwin.toString());
+		Piano Yamaha = new Piano (1985, "Yamaha", "upright grand", "white gloss");
+		System.out.println(Yamaha.toString());
 	  }
     }
