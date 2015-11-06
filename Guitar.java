@@ -1,6 +1,6 @@
 package examples;
 
-public class Guitar {
+public class Guitar extends InstrumentCondition {
 	
 	private int year;
 	private String brand;
@@ -21,6 +21,7 @@ public class Guitar {
 	  public static void main(String[] args) {
 		  Guitar Gibson = new Guitar (1987, "Gibson", "Explorer", "sunburst");
 		  System.out.println(Gibson);
+		  Guitar.condition();
 	  }
 	  
 }

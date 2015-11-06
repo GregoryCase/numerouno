@@ -1,6 +1,6 @@
 package examples;
 
-public class Piano {
+public class Piano extends InstrumentCondition {
 	
 	  private int year;
 	  private String brand;
@@ -25,5 +25,6 @@ public class Piano {
 		System.out.println(Baldwin.toString());
 		Piano Yamaha = new Piano (1985, "Yamaha", "upright grand", "white gloss");
 		System.out.println(Yamaha.toString());
+		Piano.condition();		
 	  }
     }
