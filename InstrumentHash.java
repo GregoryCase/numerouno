@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class InstrumentHash {
 	public static void main(String[] args) {
 		
-		HashMap<String, Integer> instrumentPrices = new HashMap<String, Integer>();
+		HashMap<String, Integer> instrumentPrices = new HashMap<>();
 		
 		instrumentPrices.put("Steinway",  25000);
 		instrumentPrices.put("Baldwin", 16500);
