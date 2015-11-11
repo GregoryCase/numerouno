@@ -1,4 +1,4 @@
-package examples;
+package com.numerouno.examples;
 
 import java.util.HashMap;
 

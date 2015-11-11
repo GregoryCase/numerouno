@@ -1,4 +1,4 @@
-package examples;
+package com.numerouno.music;
 
 public class Guitar extends InstrumentCondition {
 	

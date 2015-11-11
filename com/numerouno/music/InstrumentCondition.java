@@ -1,7 +1,7 @@
 /**
  * 
  */
-package examples;
+package com.numerouno.music;
 
 /**
  * @author Stuio basement

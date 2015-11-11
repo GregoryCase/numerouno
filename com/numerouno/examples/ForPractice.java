@@ -1,4 +1,4 @@
-package examples;
+package com.numerouno.examples;
 
 /* for (initialization; termination;
 	     increment) {

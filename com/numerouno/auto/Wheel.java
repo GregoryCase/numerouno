@@ -1,4 +1,4 @@
-package examples;
+package com.numerouno.auto;
 
 public class Wheel {
 

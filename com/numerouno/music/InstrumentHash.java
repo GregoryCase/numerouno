@@ -1,4 +1,4 @@
-package examples;
+package com.numerouno.music;
 
 import java.util.HashMap;
 
