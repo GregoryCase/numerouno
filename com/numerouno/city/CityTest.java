@@ -12,6 +12,8 @@ public class CityTest {
 		Gym PumpIt = new OutdoorGym(22, 11.5, "medium", "Pump It", 78, 53);
 		Airport HartsfieldJackson = new InternationalAirport(550, 2, "Delta", "Hartsfield-Jackson", 
 				"Europe, Africa, Americas, and East Asia");
+		Mall NorthpointMall = new IndoorMall(300, true, "North Point Mall", 4);
+		Mall WylandPines = new OutdoorMall(72, false, "Wyland Pines Shopping Center", 14);
 		
 		
 		
@@ -22,6 +24,10 @@ public class CityTest {
 		System.out.println(HartsfieldJackson.toString());
 		PeachtreeDekalb.turnOnRunwayLights();
 		System.out.println(PeachtreeDekalb.toString());
+		System.out.println(NorthpointMall.toString());
+		System.out.println(NorthpointMall.eatery);
+		System.out.println(WylandPines.toString());
+		System.out.println(WylandPines.eatery);
 		
 
 
