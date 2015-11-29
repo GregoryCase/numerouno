@@ -14,22 +14,26 @@ public class CityTest {
 				"Europe, Africa, Americas, and East Asia");
 		Mall NorthpointMall = new IndoorMall(300, true, "North Point Mall", 4);
 		Mall WylandPines = new OutdoorMall(72, false, "Wyland Pines Shopping Center", 14);
+		Courthouse JamesWilkins = new Courthouse(32, "James P. Wilkins", 2300000, 4, 15, 17);
+		Jail BrentonMiller = new Jail(60, "Brenton-Miller", 700000, 200, 60);
 		
 		
 		
 		System.out.println(Atlanta.toString());
 		System.out.println(FlexIt.toString());
+		FlexIt.openCheck();
 		System.out.println(PumpIt.toString());
+		PumpIt.openCheck();
 		HartsfieldJackson.turnOnRunwayLights();
 		System.out.println(HartsfieldJackson.toString());
 		PeachtreeDekalb.turnOnRunwayLights();
 		System.out.println(PeachtreeDekalb.toString());
 		System.out.println(NorthpointMall.toString());
-		System.out.println(NorthpointMall.eatery);
+		NorthpointMall.eaterycheck();
 		System.out.println(WylandPines.toString());
-		System.out.println(WylandPines.eatery);
-		
-
+		WylandPines.eaterycheck();
+		System.out.println(JamesWilkins.toString());
+		System.out.println(BrentonMiller.toString());
 
 	}
 

@@ -6,7 +6,7 @@ public class City {
 	private Airport airport;
 	private Seaport seaport;
 	private Mall mall;
-	private Courthouse courthouse;
+	private GovernmentBuildings GovernmentBuildings;
 	private String CityName;
 
 	public City(Gym gym, Airport airport, String Name) {
